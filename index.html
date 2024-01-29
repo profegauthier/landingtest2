@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Universidad Online</title>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Mi Hoja de estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-header scrolled fixed-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Información de contacto -->
+                        <div class="top-header-contact">
+                            <a href="tel:123456789"><i class="fas fa-phone"></i> 123 456 789</a> | 
+                            <a href="mailto:info@tuniversidad.com"><i class="fas fa-envelope"></i> info@tuniversidad.com</a>
+                        </div>                    
+                        
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <!-- Enlaces a redes sociales -->
+                        <div class="top-header-social">
+                            <a href="https://facebook.com/elprofedotti" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://youtube.com/matiasdotti" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://instagram.com/elprofedotti" target="_blank"><i class="fab fa-instagram"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-transparent">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="imagenes/LOGO.png" alt="Logo de la Universidad" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#study-careers">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#our-team">Equipo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hero">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 hero-text">
+                    <h3>Bienvenido a la Universidad</h3>
+                    <hr class="divider">
+                    <h2 class="mt-3 copada">Somos una plataforma online de aprendizaje</h2>
+                    <button class="btn btn-yellow mt-4">Saber más</button>
+                </div>
+                <div class="col-md-6 justify-content-end">
+                    <div class="hero-form">
+                        <form>
+                            <div class="form-header text-center rounded-top">
+                                <h3 class="text-white">¡Registrarse ahora!</h3>
+                            </div>
+                            <div class="form-body bg-white p-4 rounded-bottom shadow">
+                                <div class="form-group">
+                                    <input type="text" class="form-control rounded-input" placeholder="Nombre">
+                                </div>
+                                <div class="form-row">
+                                    <div class="col-md-6 form-group">
+                                        <input type="email" class="form-control rounded-input" placeholder="Email">
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input type="tel" class="form-control rounded-input" placeholder="Teléfono">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control rounded-input" placeholder="Asunto">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control rounded-textarea" placeholder="Mensaje"></textarea>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-orange rounded-pill px-4 py-2">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <video class="hero-video" autoplay loop muted>
+            <source src="Videos/hero-video.mp4" type="video/mp4">
+            Tu navegador no soporta videos HTML5.
+        </video>
+    </section>
+    
+    <!-- SECCION MOS POPULAR -->
+    <section id="most-popular" class="container my-5 most-popular">
+        <div>
+            <h3 class="popular-title">Lo más popular</h3>
+            <hr class="divider-orange">
+            <h2 class="font-weight-bold copada">Conoce lo que ofrecemos</h2>
+        </div>
+    
+        <div class="card-deck mt-4">
+            <!-- Tarjeta 1 -->
+            <div class="card shadow">
+                <img class="card-img-top" src="imagenes/IMAGE CURSO 1.jpg" alt="Descripción de la imagen">
+                <div class="card-body text-center">
+                    <p class="card-text">Texto aleatorio 1</p>
+                    <a href="#" class="btn btn-orange">Leer más</a>
+                </div>
+            </div>
+            <!-- Tarjeta 2 -->
+            <div class="card shadow">
+                <img class="card-img-top" src="imagenes/IMAGE CURSO 2.jpg" alt="Descripción de la imagen">
+                <div class="card-body text-center">
+                    <p class="card-text">Texto aleatorio 1</p>
+                    <a href="#" class="btn btn-orange">Leer más</a>
+                </div>
+            </div>
+            <!-- Tarjeta 3 -->
+            <div class="card shadow">
+                <img class="card-img-top" src="imagenes/IMAGE CURSO 3.jpg" alt="Descripción de la imagen">
+                <div class="card-body text-center">
+                    <p class="card-text">Texto aleatorio 1</p>
+                    <a href="#" class="btn btn-orange">Leer más</a>
+                </div>
+            </div>
+            <!-- Tarjeta 4 -->
+            <div class="card shadow">
+                <img class="card-img-top" src="imagenes/IMAGE CURSO 4.jpg" alt="Descripción de la imagen">
+                <div class="card-body text-center">
+                    <p class="card-text">Texto aleatorio 1</p>
+                    <a href="#" class="btn btn-orange">Leer más</a>
+                </div>
+            </div>
+            
+        </div>
+        <br><br>
+        <div class="text-center mt-4">
+            <button class="btn btn-vermas">Ver más</button>
+        </div>
+    </section>
+    
+    <!-- ABOUT-US -->
+    <section id="about-us" class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-6">
+                    <div>
+                        <h3 class="title-with-bullet">Acerca de Nosotros</h3>
+                        <hr class="title-underline">
+                        <h2 class="font-weight-bold copada">Conoce todo lo que hacemos por ti</h2>
+                    
+                        <p>
+                            La universidad es un lugar físico, edificios, laboratorios, bibliotecas...
+                            donde estudiantes y profesores se encuentran. La universidad también es
+                            un sistema social humano, es decir, un conjunto de elementos que están
+                            relacionados e interactúan entre sí.
+                        </p>
+                        <button class="btn btn-custom">Leer Más</button>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="image-container">
+                        
+                        <img src="imagenes/IMAGE ABOUT US.jpg" alt="Descripción de la imagen" class="rounded-image">
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+    
+    
+    <!-- BENEFICIOS -->
+    <section id="benefits" class="benefits-section">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-md-3 col-sm-6 text-center benefit-item">
+                    <div class="benefit-icon">
+                        <img src="imagenes/ICONO 1.png" alt="Contenido Excelente" >
+                    </div>
+                    <p class="text-white font-weight-bold">Contenido<br>Excelente</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center benefit-item">
+                    <div class="benefit-icon">
+                        <img src="imagenes/ICONO 2.png" alt="Instructores Expertos" >
+                    </div>
+                    <p class="text-white font-weight-bold">Instructores<br>Expertos</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center benefit-item">
+                    <div class="benefit-icon">
+                        <img src="imagenes/ICONO 3.png" alt="Los Mejores<br>Profesionales" >
+                    </div>
+                    <p class="text-white font-weight-bold">Los Mejores<br>Profesionales</p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center benefit-item">
+                    <div class="benefit-icon">
+                        <img src="imagenes/ICONO 4.png" alt="Cursos Incontables" >
+                    </div>
+                    <p class="text-white font-weight-bold">Curso<br>Incontables</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- STUDY CAREERS -->
+    <section id="study-careers" class="container mt-5">
+        <div>
+            <h3 class="popular-title">Nuestras Carreras</h3>
+            <hr class="divider-orange">
+            <h2 class="font-weight-bold copada">Explora las diferentes carreras que ofrecemos</h2>
+        </div>
+        <div class="container">
+            <div class="imagen-1">
+                <img src="imagenes/IMAGE  CATEGORY ADMINISTRATION.jpg" alt="Administración">
+                <div class="overlay">
+                    <p class="image-text">Administración</p>
+                    <button class="btn btn-outline-light btn-explore">Explorar</button>
+                </div>
+            </div>
+            <div class="imagen-2">
+                <img src="imagenes/IMAGE  CATEGORY ACCOUNTING.jpg" alt="Contabilidad" >
+                <div class="overlay">
+                    <p class="image-text">Contabilidad</p>
+                    <button class="btn btn-outline-light btn-explore">Explorar</button>
+                </div>
+            </div>
+            <div class="imagen-3">
+                <img src="imagenes/IMAGE  CATEGORY MATHEMATICS.jpg" alt="Matemáticas" >
+                <div class="overlay">
+                    <p class="image-text">Matemáticas</p>
+                    <button class="btn btn-outline-light btn-explore">Explorar</button>
+                </div>
+            </div>
+            <div class="imagen-4">
+                <img src="imagenes/IMAGE  CATEGORY PROGRAMMING.jpg" alt="Programación" >
+                <div class="overlay">
+                    <p class="image-text">Programación</p>
+                    <button class="btn btn-outline-light btn-explore">Explorar</button>
+                </div>
+            </div>
+            <div class="imagen-5">
+                <img src="imagenes/IMAGE  CATEGORY ARCHITECTURE.jpg" alt="Arquitectura" >
+                <div class="overlay">
+                    <p class="image-text">Arquitectura</p>
+                    <button class="btn btn-outline-light btn-explore">Explorar</button>
+                </div>
+                
+            </div>
+            <div class="imagen-6">
+                <img src="imagenes/IMAGE  CATEGORY BIOLOGY.jpg" alt="Biología" >
+                <div class="overlay">
+                    <p class="image-text">Biologia</p>
+                    <button class="btn btn-outline-light btn-explore">Explorar</button>
+                </div>
+            </div>
+            <div class="boton-vermas">
+                <div class="text-center mt-4">
+                    <button class="btn btn-vermas">Ver más</button>
+                </div>
+            </div>
+        </div>
+    </section>  
+        
+    <!-- NUESTRO EQUIPO -->
+    <section id="our-team" class="our-team">
+        <div class="container">
+            <div>
+                <h3 class="popular-title">Nuestro equipo</h3>
+                <hr class="divider-orange">
+                <h2 class="font-weight-bold copada">Conoce a nuestros profesionales</h2>
+            </div>
+            <!--Se muestra en escritorioç -->
+            <div id="teamCarousel" class="carousel slide d-none d-sm-block" data-ride="carousel">
+                
+                <div class="carousel-inner">
+                    
+                    <div class="carousel-item active">
+                        
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-3 team-card">
+                                        <div class="card">
+                                            <img src="imagenes/IMAGE BACKGROUND CARD TEAM  (3).jpg" class="card-img-top" alt="euqipo 1">
+                                            <div class="card-body text-center">
+                                                <div class="profile-img">
+                                                    <img src="imagenes/IMAGE TEAM 1.jpg" alt="Matias Dotti" class="rounded-circle">
+                                                </div>
+                                                <h5 class="card-title mt-4">Matias Dotti</h5>
+                                                <p class="card-text role">Docente Fullstack</p>
+                                                <a href="#" class="btn btn-vermas">Leer más</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 team-card">
+                                        <div class="card">
+                                            <img src="imagenes/IMAGE BACKGROUND CARD TEAM  (3).jpg" class="card-img-top" alt="euqipo 1">
+                                            <div class="card-body text-center">
+                                                <div class="profile-img">
+                                                    <img src="imagenes/IMAGE TEAM 2.jpg" alt="Jhon Smith" class="rounded-circle">
+                                                </div>
+                                                <h5 class="card-title mt-4">Mauro Seoane</h5>
+                                                <p class="card-text role">Docente Podologia</p>
+                                                <a href="#" class="btn btn-vermas">Leer más</a>
+                                            </div>
+                                        </div>                            
+                                    </div>
+                                    <div class="col-lg-3 team-card">
+                                        <div class="card">
+                                            <img src="imagenes/IMAGE BACKGROUND CARD TEAM  (3).jpg" class="card-img-top" alt="euqipo 1">
+                                            <div class="card-body text-center">
+                                                <div class="profile-img">
+                                                    <img src="imagenes/IMAGE TEAM 3.jpg" alt="Jhon Smith" class="rounded-circle">
+                                                </div>
+                                                <h5 class="card-title mt-4">Sofía Villasanti</h5>
+                                                <p class="card-text role">Docente Yoga</p>
+                                                <a href="#" class="btn btn-vermas">Leer más</a>
+                                            </div>
+                                        </div>                          
+                                    </div>    
+                                    <div class="col-lg-3 team-card">
+                                        <div class="card">
+                                            <img src="imagenes/IMAGE BACKGROUND CARD TEAM  (3).jpg" class="card-img-top" alt="euqipo 1">
+                                            <div class="card-body text-center">
+                                                <div class="profile-img">
+                                                    <img src="imagenes/IMAGE TEAM 4.jpg" alt="Jhon Smith" class="rounded-circle">
+                                                </div>
+                                                <h5 class="card-title mt-4">Heloise Dotti</h5>
+                                                <p class="card-text role">Magia Ancestral</p>
+                                                <a href="#" class="btn btn-vermas">Leer más</a>
+                                            
+                                            </div>                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+            <!-- Solo se muestra en móviles -->
+            <div id="teamCarouselMovil" class="carousel slide d-sm-none" data-ride="carousel">
+                
+                <div class="carousel-inner">
+            
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 team-card">
+                                <!-- Contenido de la tarjeta 1 para móvil -->
+                                <div class="card">
+                                    <img src="imagenes/IMAGE BACKGROUND CARD TEAM  (3).jpg" class="card-img-top" alt="euqipo 1">
+                                    <div class="card-body text-center">
+                                        <div class="profile-img">
+                                            <img src="imagenes/IMAGE TEAM 1.jpg" alt="Matias Dotti" class="rounded-circle">
+                                        </div>
+                                        <h5 class="card-title mt-4">Matias Dotti</h5>
+                                        <p class="card-text role">Docente Fullstack</p>
+                                        <a href="#" class="btn btn-vermas">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 team-card">
+                                
+                                <div class="card">
+                                    <img src="imagenes/IMAGE BACKGROUND CARD TEAM  (3).jpg" class="card-img-top" alt="euqipo 1">
+                                    <div class="card-body text-center">
+                                        <div class="profile-img">
+                                            <img src="imagenes/IMAGE TEAM 2.jpg" alt="Matias Dotti" class="rounded-circle">
+                                        </div>
+                                        <h5 class="card-title mt-4">Matias Dotti</h5>
+                                        <p class="card-text role">Docente Fullstack</p>
+                                        <a href="#" class="btn btn-vermas">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 team-card">
+                                
+                                <div class="card">
+                                    <img src="imagenes/IMAGE BACKGROUND CARD TEAM  (3).jpg" class="card-img-top" alt="euqipo 1">
+                                    <div class="card-body text-center">
+                                        <div class="profile-img">
+                                            <img src="imagenes/IMAGE TEAM 3.jpg" alt="Matias Dotti" class="rounded-circle">
+                                        </div>
+                                        <h5 class="card-title mt-4">Matias Dotti</h5>
+                                        <p class="card-text role">Docente Fullstack</p>
+                                        <a href="#" class="btn btn-vermas">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-3 team-card">
+                                
+                                <div class="card">
+                                    <img src="imagenes/IMAGE BACKGROUND CARD TEAM  (3).jpg" class="card-img-top" alt="euqipo 1">
+                                    <div class="card-body text-center">
+                                        <div class="profile-img">
+                                            <img src="imagenes/IMAGE TEAM 4.jpg" alt="Matias Dotti" class="rounded-circle">
+                                        </div>
+                                        <h5 class="card-title mt-4">Matias Dotti</h5>
+                                        <p class="card-text role">Docente Fullstack</p>
+                                        <a href="#" class="btn btn-vermas">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>  
+                
+                <a class="carousel-control-prev" href="#teamCarouselMovil" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#teamCarouselMovil" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="boton-vermas">
+            <div class="text-center mt-4">
+                <button class="btn btn-vermas2">Ver más</button>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- TESTIMONIOS -->
+    
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="fondoTesti">
+                
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <p>Testimonios</p>
+                        <h2>
+                            PARA NOSOTROS ES MUY IMPORTANTE CONOCER LAS OPINIONES DE NUESTROS CLIENTES
+                        </h2>
+                    </div>
+                    <!-- Carrousel -->
+                    <div class="col-lg-6 col-md-6">
+                        <div id="videoCarousel" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#videoCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#videoCarousel" data-slide-to="1"></li>
+                                <li data-target="#videoCarousel" data-slide-to="2"></li>
+                                <li data-target="#videoCarousel" data-slide-to="3"></li>
+                                <li data-target="#videoCarousel" data-slide-to="4"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <!-- Primer elemento del carrusel -->
+                                <div class="carousel-item active">
+                                    <div class="video-thumbnail">
+                                        <img src="imagenes/person_1.jpg" alt="Testimonial preview" class="img-fluid">
+                                        <button class="btn-play" data-toggle="modal" data-target="#videoModal" data-video="Videos/review-1.mp4">
+                                            <!-- Icono de play -->
+                                            <i class="fa fa-play"></i>
+                                        </button>
+                                        <div class="name-tag">Joel Stagnaro</div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="video-thumbnail">
+                                        <img src="imagenes/person_2.jpg" alt="Testimonial preview" class="img-fluid">
+                                        <button class="btn-play" data-toggle="modal" data-target="#videoModal" data-video="path-to-your-video.mp4">
+                                            <!-- Icono de play -->
+                                            <i class="fa fa-play"></i>
+                                        </button>
+                                        <div class="name-tag">Marisa Sueterg</div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="video-thumbnail">
+                                        <img src="imagenes/person_3.jpg" alt="Testimonial preview" class="img-fluid">
+                                        <button class="btn-play" data-toggle="modal" data-target="#videoModal" data-video="path-to-your-video.mp4">
+                                            <!-- Icono de play -->
+                                            <i class="fa fa-play"></i>
+                                        </button>
+                                        <div class="name-tag">lina hopking</div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="video-thumbnail">
+                                        <img src="imagenes/person_4.jpg" alt="Testimonial preview" class="img-fluid">
+                                        <button class="btn-play" data-toggle="modal" data-target="#videoModal" data-video="path-to-your-video.mp4">
+                                            <!-- Icono de play -->
+                                            <i class="fa fa-play"></i>
+                                        </button>
+                                        <div class="name-tag">Alexis Ruiz</div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="video-thumbnail">
+                                        <img src="imagenes/person_5.jpg" alt="Testimonial preview" class="img-fluid">
+                                        <button class="btn-play" data-toggle="modal" data-target="#videoModal" data-video="path-to-your-video.mp4">
+                                            <!-- Icono de play -->
+                                            <i class="fa fa-play"></i>
+                                        </button>
+                                        <div class="name-tag">Jeni Fingels</div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal para reproducir video -->
+                <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <video class="embed-responsive-item" controls>
+                                        <source src="" type="video/mp4">
+                                        Tu navegador no soporta la etiqueta de video.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Logo -->
+                <div class="col-md-3">
+                    <img src="imagenes/LOGO.png" alt="Logo Universidad" class="footer-logo">
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#about-us">Acerca de</a></li>
+                        <li><a href="#study-careers">Cursos</a></li>
+                        <li><a href="#our-team">Equipo</a></li>
+                        <li><a href="#hero">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div class="col-md-3">
+                    <h5>Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone"></i> <a href="tel:+1123456789">Phone: 123 456 789</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@email.com">Email: info@email.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> <a href="https://www.google.com/maps/place/United+States" target="_blank">Direccion: United States</a></li>
+                    </ul>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/elprofedotti" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://youtube.com/matiasdotti" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="https://instagram.com/elprofedotti" target="_blank"><i class="fab fa-instagram"></i></a>
+                        
+                    </div>
+                </div>
+                
+                <!-- Newsletter -->
+                <div class="col-md-3">
+                    <h5>Newsletter</h5>
+                    <div class="input-group">
+                        <legend>Recibe las noticias y novedades</legend>
+                        
+                        <span class="input-group-btn">
+                            <input type="text" class="form-control" placeholder="Your email">
+                            <button class="btn btn-default" type="button">Registrarme</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <div class="texto">
+                    <p>© Copyright -  @elprofedotti y Jose Silvera. Todos los derechos reservados</p>
+                    <p>Este sitio ha sido diseñado por @elprofedotti, aplicando a un test de habilidades FrontEnd</p>
+                </div>
+                <div class="logojose">
+                    <a href="https://josesilvera.com" target="_blank">
+                        <img src="imagenes/logo Silvera Enterprises.png" alt="logo josesilvera">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS, Popper.js, y jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--mis JavaScript  -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
